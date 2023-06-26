@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Noto+Sans:wght@500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* navigation */
+#nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+#navigation{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.1);
+    position: sticky;
+    top: 0px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 10px;
+    z-index: 50;
+}
+.icon{
+    font-size: 1.5rem;
+}
+
+/* hero section */
+#outer-box{
+    margin-bottom: 30px;
+}
+#in-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 161px;
+    margin-left: 0px;
+}
+#in-box .image{
+    padding: 0px 125px;
+}
+.image img{
+    width: 512px;
+    height: 514px;
+    margin: 10px 45px
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+}
+.heading h{
+    background-color: rgb(110, 177, 110);
+    font-size: 0.8rem;
+    padding: 5px 15px;
+    color: white;
+}
+.heading h1{
+    font-size: 3rem;
+    font-family: 'Noto Sans', sans-serif;
+}
+.heading p{
+    font-size: 0.8rem;
+}
+.heading div{
+    margin: 10px 0px;
+}
+.heading .btn{
+    width: 140px;
+    padding: 10px 0px;
+    font-size: 1rem;
+    background-color: rgb(233, 206, 86);
+    border: 0px;
+    color: white;
+    font-weight: bold;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+.heading .btn:hover{
+    background-color: rgb(212, 177, 80);
+}
+
+/* servisec section */
+#servisec #outer-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+#servisec .in-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    padding: 5px 7px;
+    margin: 5px 0px
+}
+#servisec .in-box:hover{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.1);
+}
+.s-image img{
+    height: 80px;
+    padding: 5px 10px
+}
+
+.in-box h4{
+    font-size: 1rem;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 3px 0px;
+}
+.in-box p{
+    font-size: 0.7rem;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 3px 0px;
+}
+
+/* menu section */
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0px;
+    align-items: center;
+}
+#menu h{
+    font-family: 'Noto Sans', sans-serif;
+    /* text-align: center; */
+    background-color: rgb(110, 177, 110);
+    font-size: 1rem;
+    padding: 5px 15px;
+    color: white;
+}
+#menu h2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+}
+.grid{
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+     "I1 I1 I2 I3"
+     "I1 I1 I2 I7" 
+     "I4 I5 I6 I7";
+}
+.grid img{
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
+}
+.grid img:hover{
+    transform: scale(1.05);
+    transition: 0.2s ease-in-out;
+}
+.item1{
+    grid-area: I1;
+}
+.item2{
+    grid-area: I2;
+}
+.item3{
+    grid-area: I3;
+}
+.item4{
+    grid-area: I4;
+}
+.item5{
+    grid-area: I5;
+}
+.item6{
+    grid-area: I6;
+}
+.item7{
+    grid-area: I7;
+}
+
+/* footer */
+footer{
+    background-color: blanchedalmond;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.f_items ul{
+    list-style: none;
+}
+.f_items ul li{
+    margin-bottom: 5px;
+}
+.f_items h3{
+    padding-bottom: 15px;
+    color: grey;
+}
+.news_letter h3{
+    padding-bottom: 15px;
+    color: grey;
+}
+.news_letter input{
+    padding: 5px 40px;
+    margin-bottom: 10px;
+}
+.icon-container{
+    display: flex;
+    gap: 15px;
+    font-size: 1.2rem;
+}
+

@@ -1,0 +1,43 @@
+@media(max-width: 1056px){
+    #in-box .image{
+        padding: 0px 50px;
+    }
+}
+@media(max-width: 820px){
+    /* hero section */
+    #in-box{
+        margin-right: 0px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .image img{
+        height: 80%;
+        width:80%;
+    }
+    #in-box .heading{
+        gap: 10px;
+        padding: 10px;
+    }
+    .heading h1{
+        font-size: 2rem;
+    }
+
+    /* servis section */
+    #servisec #outer-box{
+        flex-wrap: wrap;
+        
+    }
+
+    /* menu section */
+    #menu h2{
+        padding: 5px;
+    }
+    .grid{
+        padding: 10px;
+    }
+
+    /* footer */
+    .container{
+        flex-direction: column;
+    }
+}
